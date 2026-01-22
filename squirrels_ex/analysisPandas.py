@@ -3,10 +3,7 @@
 #https://medium.com/data-science/olympics-kaggle-dataset-exploratory-analysis-part-2-understanding-sports-4b8d73a8ec30
 import pandas as pd
 
-# If you're using your uploaded file in this chat, use this path:
-# filepath = "/mnt/data/2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20260121.csv"
-
-# Otherwise, keep your local filename:
+# your local filename:
 filepath = "squirrel.csv"
 
 df = pd.read_csv(filepath)
